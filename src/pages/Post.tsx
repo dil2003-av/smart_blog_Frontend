@@ -20,6 +20,7 @@ export default function Post() {
       setLoading(false)
     }
   }
+  
 
   useEffect(() => {
     fetchPost()
