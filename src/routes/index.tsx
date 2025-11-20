@@ -8,7 +8,7 @@ const Login = lazy(() => import("../pages/Login"))
 const Register = lazy(() => import("../pages/Register"))
 const Home = lazy(() => import("../pages/Home"))
 const Post = lazy(() => import("../pages/Post"))
-const MyPost = lazy(() => import("../pages/Mypost"))
+const MyPost = lazy(() => import("../pages/MyPost"))
 
 type RequireAuthTypes = { children: ReactNode; roles?: string[] }
 
